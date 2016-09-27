@@ -1,0 +1,36 @@
+h2 {
+  color: blue;
+}
+
+div img {
+  border: 2px solid darkslateblue;
+}
+
+.awesome {
+  color: red;
+}
+
+.ninja {
+  border: 2px solid indigo;
+}
+
+#rockstar {
+  font-family: sans-serif;
+}
+
+p.awesome {
+  background-color: #ccc;
+}
+
+p .awesome {
+  background-color: #bada55;
+}
+
+.selectors > p {
+  font-weight: bold;
+}
+
+/*does not work because buddha is not a direct descendant of div*/
+.selectors > buddha {
+  font-weight: normal;
+}
